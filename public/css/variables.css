@@ -1,0 +1,18 @@
+:root {
+    --blue: #1e90ff;
+    --red: #FF4656;
+    --white: #ffffff;
+    --black:#000000;
+    --blood:#ff0000;
+
+    --gray-bg:#1F2326;
+    --app-bg:#000000;
+
+    --white-circle:#EFEFEF;
+    --gray-circle:#505155;
+
+    --footer-bg:#F8F8F8;
+
+    --card-height:450px;
+    --size-svg-icon:28px;
+}

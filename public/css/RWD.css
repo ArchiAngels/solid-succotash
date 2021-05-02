@@ -1,0 +1,24 @@
+@media (min-width:700px) {
+    .burger-menu{
+        display: none;
+    }
+    .navigator{
+        display: block;
+    }
+}
+@media (max-width:699px) {
+    .burger-menu{
+        display: block;
+    }
+    .navigator{
+        position: absolute;
+        background: black;
+        z-index: 4;
+        display:none;
+        width: 91%;
+        height: 81%;
+        padding-left: 9%;
+        font-size:1.3rem;
+        flex-direction: column;
+    }
+}
