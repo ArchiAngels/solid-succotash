@@ -7,6 +7,9 @@
     }
 }
 @media (max-width:699px) {
+    :root{
+        --card-height:390px;
+    }
     .burger-menu{
         display: block;
     }

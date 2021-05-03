@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="public/css/content_style.css">
     <link rel="stylesheet" href="public/css/RWD.css">
     <link rel="stylesheet" href="public/css/burger-menu.css">
+    <link rel="stylesheet" href="public/css/dark_scene.css">
 
     <link rel="shortcut icon" href="public/img/i3.ico" type="image/x-icon">
 
@@ -56,13 +57,19 @@
             <div class="fade_bg"></div>
             <h1>agents</h1>
             <div class="wrap_cards">
-                <ul class = 'heroes_wrap'>
+                <div class="dark_scene" id = 'darkscene'>
+                    <div class="scene_content" scene_ = 'true'>
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+                <ul class = 'heroes_wrap' id = 'cards_items'>
                     <li>
                         <div class='hero_card'>
                             <div class="inf_hero">
-                                <img src="public/img/phoenix.png" alt="Phoenix art">
-                                <p class='hero_country'>United Kingdom</p>
-                                <p class='hero_class'>PHOENIX</p>
+                                <img src="public/img/phoenix.png" alt="Phoenix art" nr_of_list = '0'>
+                                <p class='hero_country' nr_of_list = '0'>United Kingdom</p>
+                                <p class='hero_class' nr_of_list = '0'>PHOENIX</p>
                             </div>
                             <div class="price_inf">
                                 <svg class='clickable_' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
@@ -306,5 +313,6 @@
 
     </div>
     <script src="public/scritps/nav_script.js"></script>
+    <script src="public/scritps/dark_scene.js"></script>
 </body>
 </html>

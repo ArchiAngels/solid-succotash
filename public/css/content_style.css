@@ -51,8 +51,8 @@ main h1{
     white-space: nowrap;
 }
 .heroes_wrap li{
-    width:200px;
-    height:450px;
+    width:var(--card-width);
+    height:var(--card-height);
 
     position:relative;
 
@@ -118,6 +118,7 @@ main h1{
     left:-68px;
 }
 .hero_card .hero_class{
+    position:absolute;
     width:var(--card-height);
     height:1px;
     top:232px;

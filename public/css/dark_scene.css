@@ -1,0 +1,43 @@
+.dark_scene{
+    position:absolute;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index:4;
+    display:none;
+    background:var(--black);
+    width:100%;
+    height:100%;
+    /* FIREFOX */
+    scrollbar-color: var(--white) transparent;
+    scrollbar-width: thin;
+    /* /FIREFOX */
+}
+/* OPERA */
+.dark_scene::-webkit-scrollbar {
+    height:8px;
+    background: var(--white);
+}
+.dark_scene::-webkit-scrollbar-thumb{
+    background: var(--white);
+}
+/* /OPERA */
+.scene_content{
+    position:relative;
+    z-index:5;
+    width:100%;
+    height:200%;
+    background:#ffffff55;
+}
+.left{
+    width:50%;
+    height:100%;
+    background:var(--blood);
+}
+.right{
+    position: fixed;
+    top:15%;
+    right:5%;
+    width:var(--card-width);
+    height:var(--card-height);
+    background:var(--white);
+}
