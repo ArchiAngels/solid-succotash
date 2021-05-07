@@ -1,4 +1,5 @@
 // window.onload = ()=>{
+
     let inputs = document.getElementById('inv_check_box');
     let nav_bar = document.getElementById('NavBar');
     let class_name = ['flex','none','block'];

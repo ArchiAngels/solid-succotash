@@ -1,0 +1,6 @@
+[
+    {"name":"Phoenix","price":"14.98$","picture":"public/img/phoenix.png","label":"no-label","country_hero":"United Kingdom"},
+    {"name":"Jett","price":"14.97$","picture":"public/img/jett.png","label":"no-label","country_hero":"South Korea"},
+    {"name":"Sova","price":"14.96$","picture":"public/img/sova.png","label":"no-label","country_hero":"Russia"},
+    {"name":"Sage","price":"14.95$","picture":"public/img/sage.png","label":"no-label","country_hero":"China"}
+]
